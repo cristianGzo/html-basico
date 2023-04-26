@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="texto" style="cursor:s-resize" onClick="Alternar(seccion1)">
+        Pulsar aquí para ocultar o mostrar el bloque siguiente.
+     </p>
+     
+     <div id="seccion1" style="background: #008080;  color: black; display: block">
+        <p id="bloque">Este bloque aparece y desaparece de la página!!!</p> 
+     </div>
+
+     <div div="correo" id="div2" >
+        <h2 id="texto2">A continuacion intente validar un email!!</h2>
+        <label id="correo" for="email">Correo electronico:</label>
+        <input type="text" id="email" name="semail">
+        <input type="submit" value="Validate" onclick="return validateEmail()"/>
+       
+     </div>
+
+    <script src="control.js"></script>
+</body>
+</html>

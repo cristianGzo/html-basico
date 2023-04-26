@@ -1,0 +1,21 @@
+
+#texto{
+    color: white;
+    text-align: center;
+}
+
+#texto2, #correo{
+    color: white;
+}
+body{
+    background-color: black;
+}
+#bloque{
+    color: yellow;
+}
+#seccion1{
+ text-align: center;   
+ width: 20;
+ height: 20;
+}
+
